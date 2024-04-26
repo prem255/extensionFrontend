@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "LinkedIn Profile Extension",
+    "description": "Extracts Company data from LinkedIn",
+    "version": "1.0",
+    "permissions": [
+        "activeTab",
+        "storage",
+        "scripting"
+    ],
+    "action": {
+      "default_popup": "js/index.html"
+    }
+}

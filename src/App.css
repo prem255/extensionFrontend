@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 20px;
+    width: 200px;
+}
+
+.header > button {
+    cursor: pointer;
+}
+
+#switchBtn {
+    display: inline-block;
+    position: absolute;
+    z-index: 100;
+    width: 30px;
+    top: 50%;
+    background: #6C2BD9;
+    border-radius: 8px;
+}
+#switchBtn button {
+   min-width: 0px;
+   padding: 5px;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
